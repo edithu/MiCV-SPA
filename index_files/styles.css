@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+/* ----------------------------*/
+/*  Configuraciones generales  */
+/* ----------------------------*/
+
+body {
+  font-family: Montserrat, "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  background-color: #e5e5e5;
+}
+
+/* --------------------------------*/
+/* Contenido General: Lado derecho */
+/* --------------------------------*/
+
+.contenedor-principal {
+  background-color: white;
+  width: 980px;
+  /* height: 2750px; */
+  margin: 30px auto;
+  display: flex;
+  flex-direction: row-reverse; /* dirección del eje principal: en columnas pero en reversa */
+}
+
+/* ---------------------*/
+/*   Sección derecha    */
+/* ---------------------*/
+.informacion-basica {
+  font-size: 15px;
+  padding: 50px 35px 70px 48px;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.profesion {
+  font-size: 25px;
+  font-weight: 700; /* 700 es el tamaño del texto en negrita */
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nombre {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 25px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.minibio {
+  /* width: 500px; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.profesion-minibio {
+  text-align: justify;
+  width: 85%;
+}
+
+.titulo-seccion-principal {
+  margin-top: 35px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 27px;
+  text-shadow: 0 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.lista-proyectos {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  padding-left: 17px;
+}
+
+.enlace-proyecto {
+  color: #595959;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.puntos-suspen-proy {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.lenguajes-proyecto {
+  color: #fb6d3a;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.experiencia-laboral {
+  width: 90%;
+}
+
+.titulo-cargo, .nombre-institucion {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  color: #fb6d3a;
+  margin-bottom: 0px;
+}
+
+.nombre-empresa {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: gray;
+  text-align:justify;
+}
+
+.divisor-cargo-empresa {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  color: black;
+}
+
+.fecha-lugar {
+  margin-top: 5px;
+  font-style:italic;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.lista-actividades {
+  padding-left: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align:justify;
+}
+
+.texto-comp {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align:justify;
+  
+}
+
+.titulo-obtenido {
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+/* Para estilizar fecha y lugar 
+y nombre del titulo obtenido fueron 
+reutilizados los atributos aplicados
+a titulo--cargo y fecha-lugar  */
+
+
+/* ----------------------------*/
+/* Sección Izquierda (SideBar) */
+/* ----------------------------*/
+
+.informacion-secundaria {
+  /* background: #1E2939;   color original*/
+  background-color: #320844ca;
+  padding: 40px 20px;
+}
+
+.titulo-lateral {
+  color: white;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+
+.info-contacto,
+.habilidades-tecnicas,
+.habilidades-blandas {
+  margin-left: 25px; /* para separar los textos del lado izquierdo */
+}
+
+.tipo-contacto {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.info-contacto {
+  color: lightgray;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.lista-lateral {
+  padding: 0; /* para eliminar cualquier posible padding */
+  padding: 0 15px 10px 15px;
+}
+
+/* Para darle propiedades todos los items de las listas en el sidebar */
+.lista-lateral > li {
+  color: #fb6d3a;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.elemento-lista-lateral {
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
