@@ -20,7 +20,7 @@ body {
   display: flex;
   flex-direction: row-reverse; /* Manda el Aside morado a la izquierda */
   /*gap: 20px; /* Space between main and aside */
-  max-width: 1600px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
