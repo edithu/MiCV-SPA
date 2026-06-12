@@ -10,13 +10,15 @@
 
 body {
   font-family: Montserrat, "Franklin Gothic Medium", "Arial Narrow", Arial,
-    sans-serif;
+  sans-serif;
   background-color: #e5e5e5;
 }
 
 .contenedor-flex {
   display: flex;
   gap: 20px; /* Space between main and aside */
+  max-width: 1300px;
+  margin: 30px auto;
 }
 
 /* Responsive: stack vertically on smaller screens */
@@ -32,11 +34,12 @@ body {
 .contenedor-principal {
   flex: 1; /* Takes up available space */
   background-color: white;
-  width: 980px;
-  margin: 30px auto;
-  display: flex;
-  flex-direction: row-reverse; /* Manda el Aside morado a la izquierda */
+  padding: 50px 35px 70px 48px;
   align-items: stretch; /* Hace que la barra morada cubra todo el alto */
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  /* margin: 30px auto;
+  /* display: flex; 
+  /* flex-direction: row-reverse; /* Manda el Aside morado a la izquierda */
   /* height: 2750px; */
 }
 
@@ -45,10 +48,9 @@ body {
 /* ---------------------*/
 
 .informacion-basica {
-  width: 65%;
+  width: 100%;
   font-size: 15px;
-  padding: 50px 35px 70px 48px;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  /* padding: 50px 35px 70px 48px;*/
 }
 
 .profesion {
@@ -191,8 +193,8 @@ a titulo--cargo y fecha-lugar  */
 /* ----------------------------*/
 
 .informacion-secundaria {
-  flex-shrink: 0; /* Prevents shrinking */ 
-  width: 100%; /* El 35% restante del espacio */
+  flex: 0 0 300px; /* Fixed width sidebar, doesn't shrink */ 
+  /* width: 100%; /* El 35% restante del espacio */ 
   background-color: #320844ca;
   padding: 40px 20px;
   
