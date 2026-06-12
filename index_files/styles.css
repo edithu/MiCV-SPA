@@ -39,7 +39,7 @@ body {
 .contenedor-principal {
   flex: 1; /* Takes up available space */
   background-color: white;
-  padding: 40px 30px;
+  padding: 30px 20px;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   /*padding: 50px 35px 70px 48px;
   align-items: stretch; /* Hace que la barra morada cubra todo el alto */
@@ -83,7 +83,8 @@ body {
 
 .profesion-minibio {
   text-align: justify;
-  width: 85%;
+  width: 100%;
+  max-width: 900px; /* Add a max-width if you want to control line length */
 }
 
 .titulo-seccion-principal {
