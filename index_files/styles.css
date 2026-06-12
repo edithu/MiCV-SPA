@@ -25,9 +25,9 @@ body {
 */}
 
 .contenedor-principal {
-    display: flex;
-    flex-direction: row-reverse; /* Esto manda el aside morado a la izquierda */
-    flex-wrap: nowrap;           /* <<< CAMBIA 'wrap' POR 'nowrap' (Fuerza a que se queden en la misma fila) */
+display: flex;
+    flex-direction: row-reverse; /* Envía el aside morado automáticamente a la izquierda */
+    flex-wrap: nowrap;           /* Fuerza a que se queden en la misma fila horizontal */
     align-items: flex-start;
     width: 100%;
     max-width: 1200px;
@@ -35,16 +35,17 @@ body {
     box-sizing: border-box;
     background-color: white;
 
-
 /* ---------------------*/
 /*   Sección derecha    */
 /* ---------------------*/
 .informacion-basica {
   font-size: 15px;
-  padding: 50px 35px 70px 48px;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   width: 70%;
+  /*padding: 50px 35px 70px 48px;
+  padding 20px;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
+  
 }
 
 .profesion {
