@@ -83,7 +83,7 @@ body {
 
 .profesion-minibio {
   text-align: justify;
-  width: 100%;
+  width: 90%;
   max-width: 900px; /* Add a max-width if you want to control line length */
 }
 
