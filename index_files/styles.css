@@ -14,11 +14,23 @@ body {
   background-color: #e5e5e5;
 }
 
+.contenedor-flex {
+  display: flex;
+  gap: 20px; /* Space between main and aside */
+}
+
+/* Responsive: stack vertically on smaller screens */
+@media (max-width: 768px) {
+  .contenedor-flex {
+    flex-direction: column;
+  }
+  
 /* --------------------------------*/
 /* Contenido General: Lado derecho */
 /* --------------------------------*/
 
 .contenedor-principal {
+  flex: 1; /* Takes up available space */
   background-color: white;
   width: 980px;
   margin: 30px auto;
@@ -179,10 +191,12 @@ a titulo--cargo y fecha-lugar  */
 /* ----------------------------*/
 
 .informacion-secundaria {
-   width: 35%; /* El 35% restante del espacio */
-   background-color: #320844ca;
-    padding: 40px 20px;
-   /* background: #1E2939;   color original*/
+  flex-shrink: 0; /* Prevents shrinking */ 
+  width: 100%; /* El 35% restante del espacio */
+  background-color: #320844ca;
+  padding: 40px 20px;
+  
+  /* background: #1E2939;   color original*/
 }
 
 .titulo-lateral {
