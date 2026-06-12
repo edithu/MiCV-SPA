@@ -12,19 +12,23 @@ body {
   font-family: Montserrat, "Franklin Gothic Medium", "Arial Narrow", Arial,
   sans-serif;
   background-color: #e5e5e5;
+  margin: 0;
+  padding: 20px;
 }
 
 .contenedor-flex {
   display: flex;
   flex-direction: row-reverse; /* Manda el Aside morado a la izquierda */
-  /*gap: 20px; /* Space between main and aside */
+  gap: 20px; /* Space between main and aside */
   max-width: 1300px;
+  margin: 0 auto;
 }
 
 /* Responsive: stack vertically on smaller screens */
 @media (max-width: 768px) {
   .contenedor-flex {
     flex-direction: column;
+    gap: 0;
   }
 }
 
@@ -35,9 +39,10 @@ body {
 .contenedor-principal {
   flex: 1; /* Takes up available space */
   background-color: white;
-  padding: 50px 35px 70px 48px;
-  align-items: stretch; /* Hace que la barra morada cubra todo el alto */
+  padding: 40px 30px;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  /*padding: 50px 35px 70px 48px;
+  align-items: stretch; /* Hace que la barra morada cubra todo el alto */
   /*margin: 30px auto;
   /* display: flex; */
   /* height: 2750px; */
