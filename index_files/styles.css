@@ -38,8 +38,8 @@ body {
   align-items: stretch; /* Hace que la barra morada cubra todo el alto */
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   /* margin: 30px auto;
-  /* display: flex; 
-  /* flex-direction: row-reverse; /* Manda el Aside morado a la izquierda */
+  /* display: flex; */
+  flex-direction: row-reverse; /* Manda el Aside morado a la izquierda */
   /* height: 2750px; */
 }
 
