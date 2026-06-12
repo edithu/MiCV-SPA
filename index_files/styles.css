@@ -21,6 +21,7 @@ body {
   margin: 30px auto;
   display: flex;
   flex-direction: row-reverse; /* dirección del eje principal: en columnas pero en reversa */
+  align-items: flex-start;
 }
 
 /* ---------------------*/
@@ -30,6 +31,7 @@ body {
   font-size: 15px;
   padding: 50px 35px 70px 48px;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  width: 70%;
 }
 
 .profesion {
@@ -175,6 +177,7 @@ a titulo--cargo y fecha-lugar  */
   /* background: #1E2939;   color original*/
   background-color: #320844ca;
   padding: 40px 20px;
+  width: 30%;
 }
 
 .titulo-lateral {
