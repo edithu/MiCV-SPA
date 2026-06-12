@@ -27,6 +27,8 @@ body {
 /*   Sección derecha    */
 /* ---------------------*/
 .informacion-basica {
+  width: 650px;
+  box-sizing: border-box; 
   font-size: 15px;
   padding: 50px 35px 70px 48px;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
@@ -172,6 +174,8 @@ a titulo--cargo y fecha-lugar  */
 /* ----------------------------*/
 
 .informacion-secundaria {
+  width: 330px;
+  box-sizing: border-box; 
   /* background: #1E2939;   color original*/
   background-color: #320844ca;
   padding: 40px 20px;
