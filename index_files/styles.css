@@ -14,15 +14,27 @@ body {
 /* Contenido General: Lado derecho */
 /* --------------------------------*/
 
+/*.contenedor-principal {
+/*  display: flex; /* para activar el diseño en paralelo */
+/*  flex-direction: row-reverse; /* dirección del eje principal: en columnas pero en reversa, para forzar a que el aside (que está abajo en el HTML) se dibuje primero a la izquierda.*/
+/*  align-items: flex-start;
+/*  background-color: white;
+/*  width: 980px;
+/* height: 2750px; */
+*/  margin: 30px auto;
+*/}
+
 .contenedor-principal {
-  display: flex; /* para activar el diseño en paralelo */
-  flex-direction: row-reverse; /* dirección del eje principal: en columnas pero en reversa, para forzar a que el aside (que está abajo en el HTML) se dibuje primero a la izquierda.*/
-  align-items: flex-start;
-  background-color: white;
-  width: 980px;
-  /* height: 2750px; */
-  margin: 30px auto;
-}
+    display: flex;
+    flex-direction: row-reverse; /* Esto manda el aside morado a la izquierda */
+    flex-wrap: nowrap;           /* <<< CAMBIA 'wrap' POR 'nowrap' (Fuerza a que se queden en la misma fila) */
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: white;
+
 
 /* ---------------------*/
 /*   Sección derecha    */
