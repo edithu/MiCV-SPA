@@ -230,6 +230,7 @@ a titulo--cargo y fecha-lugar  */
 
 .info-contacto {
   color: lightgray;
+  aligment: left;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
