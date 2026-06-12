@@ -19,7 +19,7 @@ body {
 .contenedor-flex {
   display: flex;
   flex-direction: row-reverse; /* Manda el Aside morado a la izquierda */
-  gap: 20px; /* Space between main and aside */
+  /*gap: 20px; /* Space between main and aside */
   max-width: 1300px;
   margin: 0 auto;
 }
