@@ -14,27 +14,14 @@ body {
 /* Contenido General: Lado derecho */
 /* --------------------------------*/
 
-/*.contenedor-principal {
-/*  display: flex; /* para activar el diseño en paralelo */
-/*  flex-direction: row-reverse; /* dirección del eje principal: en columnas pero en reversa, para forzar a que el aside (que está abajo en el HTML) se dibuje primero a la izquierda.*/
-/*  align-items: flex-start;
-/*  background-color: white;
-/*  width: 980px;
-/* height: 2750px; */
-*/  margin: 30px auto;
-*/}
-
 .contenedor-principal {
-    display: flex;
-    flex-direction: row-reverse; /* Esto manda el aside morado a la izquierda */
-    flex-wrap: nowrap;           /* <<< CAMBIA 'wrap' POR 'nowrap' (Fuerza a que se queden en la misma fila) */
-    align-items: flex-start;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    background-color: white;
-
+  background-color: white;
+  width: 980px;
+  /* height: 2750px; */
+  margin: 30px auto;
+  display: flex;
+  flex-direction: row-reverse; /* dirección del eje principal: en columnas pero en reversa */
+}
 
 /* ---------------------*/
 /*   Sección derecha    */
@@ -43,7 +30,6 @@ body {
   font-size: 15px;
   padding: 50px 35px 70px 48px;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  width: 70%;
 }
 
 .profesion {
@@ -189,8 +175,6 @@ a titulo--cargo y fecha-lugar  */
   /* background: #1E2939;   color original*/
   background-color: #320844ca;
   padding: 40px 20px;
-  width: 30%;
-  min-height: 100vh; /* Hace que cubra todo el alto de la pantalla */
 }
 
 .titulo-lateral {
