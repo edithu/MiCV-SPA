@@ -44,6 +44,7 @@ body {
   padding: 50px 35px 70px 48px;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   width: 70%;
+  box-sizing: border-box;
 }
 
 .profesion {
@@ -191,6 +192,7 @@ a titulo--cargo y fecha-lugar  */
   padding: 40px 20px;
   width: 30%;
   min-height: 100vh; /* Hace que cubra todo el alto de la pantalla */
+  box-sizing: border-box;
 }
 
 .titulo-lateral {
