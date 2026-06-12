@@ -26,7 +26,8 @@ body {
   .contenedor-flex {
     flex-direction: column;
   }
-  
+}
+
 /* --------------------------------*/
 /* Contenido General: Lado derecho */
 /* --------------------------------*/
